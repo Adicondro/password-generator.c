@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.16...3.28)
+
+project(cube
+    VERSION 0.1.0
+    DESCRIPTION "Simple password generator"
+    LANGUAGES C
+)
+
+# Enable testing
+include(CTest)
+enable_testing()
+
+# Create executable
+add_executable(minimalpw minimalpw.c)
+
+# Packaging configuration
+set(CPACK_PACKAGE_NAME ${PROJECT_NAME})
+set(CPACK_PACKAGE_VERSION ${PROJECT_VERSION})
+include(CPack)

@@ -1,0 +1,11 @@
+# Build output
+build/
+
+# Symlink compile commands (generated, bukan source)
+compile_commands.json
+
+# Mac junk
+.DS_Store
+
+# Editor
+.cache/
