@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define PASSWORD_LENGTH 20
+#define PASSWORD_LENGTH 36
 
 char allowed_characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
 
@@ -18,3 +18,9 @@ int main()
   printf("Your password is: %s\n", password);
 
 }
+
+// To learn:
+// 1. Array Index
+// 2. Random
+// 3. Size of Array
+// 4. Define
